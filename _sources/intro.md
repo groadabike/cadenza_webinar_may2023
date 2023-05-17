@@ -3,7 +3,8 @@
 
 ## Program:
 
-1. Clarity/Cadenza Codebase
+
+1. [The Clarity/Cadenza GitHub](claritycadenza_tools)
 2. Task 1
 3. Task 2
 
