@@ -1,5 +1,5 @@
 jupyter-book
 matplotlib
 numpy
-pyclarity==3.0.2
+pyclarity==0.3.2
 gdown
