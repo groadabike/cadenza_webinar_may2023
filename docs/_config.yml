@@ -10,7 +10,7 @@ logo: images/cadenza_logo.png
 execute:
   allow_errors: true
   execute_notebooks: cache
-  timeout: 500
+  timeout: 5000
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -32,10 +32,6 @@ repository:
 html:
   use_repository_button: true
   use_issues_button: true
-  extra_footer: |
-    <p>
-    Copyright 2023
-    </p>
 
 
 launch_buttons:
