@@ -4,7 +4,7 @@
 format: jb-book
 root: intro
 chapters:
-- file: Installing_ClarityCadenza_tools
+- file: claritycadenza_tools
 #- file: notebooks
 #- file: markdown-notebooks
 #- file: mymarkdownfile
