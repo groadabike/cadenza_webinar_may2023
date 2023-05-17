@@ -32,6 +32,11 @@ repository:
 html:
   use_repository_button: true
   use_issues_button: true
+  extra_footer: |
+    <p>
+    Copyright 2023
+    </p>
+
 
 launch_buttons:
   colab_url: "https://colab.research.google.com"
