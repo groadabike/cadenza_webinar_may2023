@@ -1,7 +1,7 @@
 # Cadenza Webinar - May 2023 
 **by Gerardo Roa Dabike, Trevor Cox**
 
-## Program:
+## Program
 
 
 1. [The Clarity/Cadenza GitHub](claritycadenza_tools)
