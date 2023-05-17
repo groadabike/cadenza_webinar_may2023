@@ -215,24 +215,6 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://mybinder.org/v2/gh/groadabike/cadenza_webinar_may2023/master?urlpath=tree/docs/markdown-notebooks.md" target="_blank"
-   class="btn btn-sm dropdown-item"
-   title="Launch onBinder"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  
-    <img src="_static/images/logo_binder.svg">
-  </span>
-<span class="btn__text-container">Binder</span>
-</a>
-</li>
-      
-      
-      
-      
       <li><a href="https://colab.research.google.com/github/groadabike/cadenza_webinar_may2023/blob/master/docs/markdown-notebooks.md" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch onColab"
@@ -246,6 +228,24 @@ const thebe_selector_output = ".output, .cell_output"
   </span>
 <span class="btn__text-container">Colab</span>
 </a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="initThebeSBT()"
+  class="btn btn-sm btn-launch-thebe dropdown-item"
+  title="Launch Thebe"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-play"></i>
+  </span>
+<span class="btn__text-container">Live Code</span>
+</button>
 </li>
       
   </ul>
@@ -438,7 +438,7 @@ See the YAML at the top of this page for example.</p></li>
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
+            repo: "groadabike/cadenza_webinar_may2023",
             ref: "master",
         },
         codeMirrorConfig: {
