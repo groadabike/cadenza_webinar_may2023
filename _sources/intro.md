@@ -4,9 +4,9 @@
 ## Program
 
 
-1. [The Clarity/Cadenza GitHub](claritycadenza_tools)
-2. [Task 1](task1)
-3. [Task 2](task2)
+1. [The Clarity-Cadenza GitHub](claritycadenza_tools)
+2. [Task 1: headphones](task1)
+3. [Task 2: in car](task2)
 
 
 
