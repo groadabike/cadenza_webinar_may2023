@@ -1,5 +1,5 @@
 # Cadenza Webinar - May 2023 
-**by Gerardo Roa Dabike and Trevor Cox**
+**by Jon Barker, Trevor Cox and Gerardo Roa Dabike**
 
 ## Program
 

@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Webinar and Q&A - May 2023
-author: Gerardo Roa Dabike, Trevor Cox
+author: Jon Barker, Trevor Cox and Gerardo Roa Dabike
 logo: images/cadenza_logo.png
 
 # Force re-execution of notebooks on each build.
