@@ -1,13 +1,13 @@
 # The GitHub Tools
 
-The aim of the Clarity and Cadenza projects is to stimulate progress in speech and music processing for people with hearing loss. The Clarity project aims to improve the intelligibility and quality of speech in noise, while the Cadenza project focuses on the perceived audio quality of music.
+The aims of the Clarity and Cadenza projects are to stimulate progress in speech and music processing for people with hearing loss. The Clarity project aims to improve the intelligibility and quality of speech in noise, while the Cadenza project focuses on the perceived audio quality of music.
 
 Both projects organize open machine learning challenges providing a scenario, datasets, tools, and baselines. Due to these similarities and the fact that both projects focus on hearing loss, they share the same code base.
 
 The unified codebase allow us to:
 
-1. Simplify the maintenance of common elements such as the NAL-R prescription and audiogram structures.
-2. It offers a unique entry point for newcomers and for people who want to work on speech and/or music for hearing loss.
+1. Simplify the maintenance of common elements such as hearing aid prescriptions (e.g., NAL-R) and audiogram data structures.
+2. It offers a single entry point for newcomers and for people who want to work on speech and/or music for people with a hearing loss.
 
 ## Clarity GitHub Repository
 
