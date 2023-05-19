@@ -3,7 +3,12 @@
 
 title: Webinar and Q&A - May 2023
 author: Jon Barker, Trevor Cox and Gerardo Roa Dabike
+copyright: "2023"
 logo: images/cadenza_logo.png
+# Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
+#exclude_patterns  : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
+# Auto-exclude files not in the toc
+#only_build_toc_files        : false
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
