@@ -392,10 +392,10 @@ document.write(`
 <h3>PyPI<a class="headerlink" href="#pypi" title="Permalink to this heading">#</a></h3>
 <p>Clarity is available on the <a class="reference external" href="https://pypi.org/project/pyclarity">Python Package Index (PyPI)</a> to install create and/or
 activate a virtual environment and then use <code class="docutils literal notranslate"><span class="pre">pip</span></code> to install.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>--name<span class="w"> </span>clarity<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>--name<span class="w"> </span>clarity<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.10
 conda<span class="w"> </span>activate<span class="w"> </span>clarity
 
-pip<span class="w"> </span>install<span class="w"> </span>pyclarity
+pip<span class="w"> </span>install<span class="w"> </span><span class="nv">pyclarity</span><span class="o">==</span><span class="m">0</span>.3.3
 </pre></div>
 </div>
 </section>
@@ -404,9 +404,10 @@ pip<span class="w"> </span>install<span class="w"> </span>pyclarity
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># First clone the repo</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/claritychallenge/clarity.git
 <span class="nb">cd</span><span class="w"> </span>clarity
+git<span class="w"> </span>checkout<span class="w"> </span>v0.3.3
 
 <span class="c1"># Second create &amp; activate environment with conda, see https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html</span>
-conda<span class="w"> </span>create<span class="w"> </span>--name<span class="w"> </span>clarity<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8
+conda<span class="w"> </span>create<span class="w"> </span>--name<span class="w"> </span>clarity<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.10
 conda<span class="w"> </span>activate<span class="w"> </span>clarity
 
 <span class="c1"># Last install with pip</span>
@@ -418,7 +419,7 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
 <h3>GitHub pip install<a class="headerlink" href="#github-pip-install" title="Permalink to this heading">#</a></h3>
 <p>Alternatively <code class="docutils literal notranslate"><span class="pre">pip</span></code> allows you to install packages from GitHub sources directly. The following will install the current
 <code class="docutils literal notranslate"><span class="pre">main</span></code> branch.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>git+https://github.com/claritychallenge/clarity.git@main
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w">  </span>git+https://github.com/claritychallenge/clarity.git@v0.3.3
 </pre></div>
 </div>
 </section>

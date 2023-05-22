@@ -22,10 +22,10 @@ Clarity is available on the [Python Package Index (PyPI)](https://pypi.org/proje
 activate a virtual environment and then use `pip` to install.
 
 ```bash
-conda create --name clarity python=3.8
+conda create --name clarity python=3.10
 conda activate clarity
 
-pip install pyclarity
+pip install pyclarity==0.3.3
 ```
 
 ### GitHub Cloning
@@ -34,9 +34,10 @@ pip install pyclarity
 # First clone the repo
 git clone https://github.com/claritychallenge/clarity.git
 cd clarity
+git checkout v0.3.3
 
 # Second create & activate environment with conda, see https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
-conda create --name clarity python=3.8
+conda create --name clarity python=3.10
 conda activate clarity
 
 # Last install with pip
@@ -49,7 +50,7 @@ Alternatively `pip` allows you to install packages from GitHub sources directly.
 `main` branch.
 
 ```bash
-pip install -e git+https://github.com/claritychallenge/clarity.git@main
+pip install  git+https://github.com/claritychallenge/clarity.git@v0.3.3
 ```
 
 ## Note
